@@ -27,20 +27,19 @@ Each microservice is independent and maintained in its own repository:
 - Database Rate-Limiting: MongoDB writes capped at 10K ops/sec using Guava Leaky Bucket  
 - Resilience & Throughput: Multi-threaded producers and parallel consumers handle peak traffic smoothly
 
-# Demo
+## High-Level Architecture
+The system consists of multiple modules: UserService, DoctorService, SocialMediaService, BookingService, API Gateway, and supporting databases/storage.  
+![High-Level Architecture](./MindConnectHLD/MindConnectHLD.png)
 
-- [Link](#) – Watch demo video showing the fan-out pipeline and microservice flow
+## Social Media Microservices Architecture
+This diagram details the **Post, Feed, and Follow microservices** including Kafka fan-out, MongoDB schema, and timeline batching.  
+![Microservices Detailed Architecture](./SocialMediaModuleHLD/SocialMediaModuleHLD.png)
+
 
 # Design Notes & Thought Process
 
 - [Link](#) – Contains design decisions, approaches, and notes on building scalable microservices  
 - Demonstrates system design thinking, planning, and experimentation before implementation
 
-# Setup Instructions
 
-1. Clone the respective microservice repository (links in the table above)  
-2. Follow the README in each repo for installation and running instructions  
-3. Ensure Kafka and MongoDB are running locally or via Docker
-
-# Architecture Diagram (Optional)
 
