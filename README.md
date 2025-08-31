@@ -5,7 +5,7 @@ Social Media & Doctor Booking Modules
 
 # Overview
 
-MindConnect is a high-scale social media platform built as part of the larger MindConnect project.  
+Social Media Module is a high-scale social media and docter consultation platform built as part of the larger MindConnect project.  
 This module focuses on Post, Feed, and Follow microservices, designed for millions of users with low-latency and high-throughput requirements.
 
 # Microservices & Repositories
