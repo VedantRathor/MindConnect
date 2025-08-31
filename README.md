@@ -38,7 +38,7 @@ This diagram details the **Post, Feed, and Follow microservices** including Kafk
 
 # Design Notes & Thought Process
 
-- [Link](#) – Contains design decisions, approaches, and notes on building scalable microservices  
+- [Link](https://1drv.ms/o/c/c078c29098d8248b/EgFaVJUw6pNMqYhfiW_sxJMBGGsXQTzKGeZGgehHPwgyRw?e=H6wmoz) – Contains design decisions, approaches, and notes on building scalable microservices  
 - Demonstrates system design thinking, planning, and experimentation before implementation
 
 
